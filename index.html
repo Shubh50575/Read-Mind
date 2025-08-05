@@ -16,7 +16,6 @@
         <ul class="flex space-x-6 text-lg">
           <li><a href="#about" class="hover:underline">About</a></li>
           <li><a href="#features" class="hover:underline">Features</a></li>
-          <li><a href="#contact" class="hover:underline">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -35,7 +34,7 @@
   <section id="about" class="py-16 px-4">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-bold mb-6">About Read-Mind</h3>
-      <p class="text-lg">Smart chatbot that suggests books matching your taste, mood, and genre preference. Simple, fast and multilingual.</p>
+      <p class="text-lg">Smart chatbot that suggests books matching your taste, mood, and genre preference. Simple and fast.</p>
     </div>
   </section>
 
@@ -43,29 +42,16 @@
   <section id="features" class="bg-gray-100 py-16 px-4">
     <div class="max-w-6xl mx-auto">
       <h3 class="text-3xl font-bold text-center mb-10">Key Features</h3>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <h4 class="text-xl font-semibold mb-2">🎯 Personalized Recommendations</h4>
           <p>Books that match your unique preferences and emotions.</p>
-        </div>
-        <div class="bg-white p-6 rounded-xl shadow text-center">
-          <h4 class="text-xl font-semibold mb-2">🌐 Multilingual Access</h4>
-          <p>Support for users in different languages worldwide.</p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow text-center">
           <h4 class="text-xl font-semibold mb-2">📚 Genre Diversity</h4>
           <p>Explore a wide range of genres from crime to children’s books.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-16 px-4">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-2xl font-bold mb-4">Contact Us</h3>
-      <p class="mb-4">Got feedback or collaboration ideas? Reach out to us via email.</p>
-      <a href="mailto:contact@readmind.ai" class="text-indigo-700 font-medium hover:underline">contact@readmind.ai</a>
     </div>
   </section>
 
@@ -77,9 +63,9 @@
   <!-- Watson Assistant Chat Embed -->
   <script>
     window.watsonAssistantChatOptions = {
-      integrationID: "3d1fdb73-6e9e-4810-8fe3-265cc19fec07", // The ID of this integration.
-      region: "au-syd", // The region your integration is hosted in.
-      serviceInstanceID: "1a6a2f66-82d9-4ac7-b0bb-b8aa68d8af89", // The ID of your service instance.
+      integrationID: "3d1fdb73-6e9e-4810-8fe3-265cc19fec07",
+      region: "au-syd",
+      serviceInstanceID: "1a6a2f66-82d9-4ac7-b0bb-b8aa68d8af89",
       onLoad: async (instance) => { await instance.render(); }
     };
     setTimeout(function(){
@@ -91,3 +77,7 @@
 
 </body>
 </html>
+
+ 
+  
+ 
